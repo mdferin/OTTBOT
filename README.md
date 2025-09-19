@@ -2,7 +2,7 @@
 
 Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem langganan wajib ke channel Telegram.
 
-## ðŸš€ Fungsi Utama
+## 🚀 Fungsi Utama
 
 ### 1. Sistem Langganan Wajib
 - Memaksa pengguna langgan channel Telegram @onmyid sebelum boleh menggunakan bot
@@ -15,22 +15,22 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - `/resetdevice` - Reset peranti yang terdaftar
 
 ### 3. Sistem Redeem
-- Butang "ðŸŽ Redeem URL OTT" untuk mendapatkan URL baru
+- Butang "🎁 Redeem URL OTT" untuk mendapatkan URL baru
 - Sistem queue untuk mengurus permintaan redeem
 - Tempoh percubaan percuma (10 hari)
 
 ### 4. Maklumat dan Harga
-- Butang "ðŸ’µ Harga OTT" untuk melihat senarai harga
-- Butang "â„¹ï¸ Info URL OTT" untuk melihat maklumat akaun
+- Butang "💵 Harga OTT" untuk melihat senarai harga
+- Butang "ℹ️ Info URL OTT" untuk melihat maklumat akaun
 
 ### 5. Sistem Renew
-- Butang "ðŸ”„ Renew URL" untuk pengguna yang URL-nya telah expired
+- Butang "🔄 Renew URL" untuk pengguna yang URL-nya telah expired
 
 ### 6. Notifikasi Automatik
 - Notifikasi sebelum dan selepas URL expired (7, 3, 1 hari)
 - Sistem penjadualan untuk menghantar notifikasi
 
-## ðŸ”§ Fungsi Admin
+## 🔧 Fungsi Admin
 
 ### 1. Statistik dan Pemantauan
 - `/stats` - Lihat statistik pengguna
@@ -47,7 +47,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - `/broadcastto <user_id>` - Hantar ke SATU pengguna (teks sahaja)
 - `/broadcastlist <user_id1> <user_id2> ...` - Hantar ke SENARAI pengguna (teks sahaja)
 
-## âš™ï¸ Konfigurasi
+## ⚙️ Konfigurasi
 
 ### Tetapan Utama
 - `BOT_TOKEN` - Token Telegram Bot
@@ -63,7 +63,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - Log sistem menggunakan format JSON
 - Sistem lock fail untuk mengelakkan konflik
 
-## ðŸ›¡ï¸ Keselamatan
+## 🛡️ Keselamatan
 
 ### Pengesahan Langganan
 - Pengguna mesti langgan channel @onmyid untuk menggunakan bot
@@ -74,14 +74,14 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - Sistem retry untuk mengelakkan rate limit Telegram
 - Penjadualan notifikasi untuk mengurangkan beban sistem
 
-## ðŸ“Š Sistem Queue
+## 📊 Sistem Queue
 
 ### Redeem Queue
 - Antrian untuk mengurus permintaan redeem yang serentak
 - Worker sistem untuk memproses permintaan secara berurutan
 - Status queue boleh dilihat oleh admin
 
-## ðŸ“ Format Fail
+## 📝 Format Fail
 
 ### redeem_log.json
 ```json
@@ -107,7 +107,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 }
 ```
 
-## ðŸ¤– Command Handler
+## 🤖 Command Handler
 
 ### Pengguna Biasa
 - `/start` - Mulakan bot
@@ -126,7 +126,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - `/broadcastto` - Siar ke satu
 - `/broadcastlist` - Siar ke senarai
 
-## ðŸ”„ Callback Handler
+## 🔄 Callback Handler
 
 ### Butang Inline
 - `redeem` - Redeem URL OTT
@@ -136,7 +136,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - `renew` - Renew URL
 - `check_subscription` - Semak langganan
 
-## ðŸ“ˆ Sistem Notifikasi
+## 📈 Sistem Notifikasi
 
 ### Automatik
 - Dijalankan setiap 6 jam
@@ -149,7 +149,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - Boleh dihantar kepada semua pengguna atau pengguna tertentu
 - Boleh menentukan hari sebelum/sudah expired
 
-## ðŸ› ï¸ Fungsi Teknikal
+## 🛠️ Fungsi Teknikal
 
 ### Utility Functions
 - `load_redeem_log()` - Muat log redeem
@@ -175,7 +175,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - `broadcastlist()` - Siar ke senarai pengguna
 - `handle_broadcast_confirmation()` - Kendali pengesahan broadcast
 
-## ðŸ” Keselamatan Data
+## 🔐 Keselamatan Data
 
 ### Perlindungan Rate Limit
 - Retry automatik untuk ralat network
@@ -187,7 +187,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - Alert automatik ke admin apabila ada ralat kritikal
 - Pengendalian exception untuk semua fungsi utama
 
-## ðŸ“¦ Dependensi
+## 📦 Dependensi
 
 ### Pustaka Utama
 - `python-telegram-bot` - API Telegram
@@ -202,7 +202,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
 - Python 3.7+
 - python-telegram-bot 20.0+
 
-## ðŸš€ Deployment
+## 🚀 Deployment
 
 ### Keperluan Sistem
 - Server Linux/Windows dengan Python 3.7+
