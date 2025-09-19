@@ -103,7 +103,7 @@ Bot Telegram untuk menguruskan URL OTT (Online Television Tuner) dengan sistem l
   "expired_desc": "Tarikh Expired",
   "limit_device": "1",
   "playlist_type": "all",
-  "created_by": "DilarangBodoh"
+  "created_by": "admin"
 }
 ```
 
